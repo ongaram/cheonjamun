@@ -3,22 +3,20 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100%;
+    background-color: rgb(117, 148, 134);
+    /*color: rgb(red, green, blue);*/
 }
 
 /*원문, 해설 전체 내용 시작*/
 
 /*원문, 해설 전체 div*/
 .gtfr {
-    margin-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-top: 100px;
 }
 
 /*원문, 해설 전체 ul*/
-.gtfr ul {
+.gtfr li {
     list-style: none;
-    margin: 0;
-    padding-left: 0;
 }
 /*원문, 해설 전체 p*/
 .gtfr p {
@@ -27,16 +25,20 @@ html, body {
     margin: 0;
 }
 
+.swiper-wrapper {
+    margin-top: 50px;
+}
+
 /*원문 내용(음독), 해설 내용(뜻풀이)*/
 .side-con-min {
-    font-size: 75px;
-    margin-bottom: 75px;
+    font-size: 50px;
+    color: #503200;
 }
 
 /*원문 내용(원문)*/
 .side-con-min-flus {
-    font-size: 75px;
-    margin-bottom: 15px;
+    color: rgb(80, 50, 0);
+    font-size: 50px;
 }
 
 /*마커 제거*/
@@ -52,86 +54,65 @@ html, body {
 
 /*원문 내용(원문) 색상*/
 .color-rgb-min {
-    color: black;
+    color: #503200;
 }
 
 /*원문 내용(음독) 색상*/
 .color-rgb-flus {
-    color: red;
-}
-
-/*대제목, n번(n番)*/
-.side-con {
-    font-size: 75px;
-    color: rgb(0, 0, 150);
+    color: #e2e2e2;
 }
 
 .ab {
+    display: inline;
     text-align: center;
+    background-color: gold;
+    color: #503200;
+    border-radius: 30px;
+    padding: 16px 32px;
+    margin-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 80px;
 }
 
-/*원문, 해설 전체 내용 종료*/
-
-.font-size {
-    font-size: 120px;
+.ul-div {
+    display: block;
+    width: 80%;
+    height: 100%;
+    background-color: rgb(238, 156, 62);
+    border-radius: 30px;
+    padding: 10px 14px;
+    margin-top: 30px;
+    margin-bottom: 80px;
 }
 
 .padding-tab {
+    display: inline;
     padding-bottom: 10px;
+    border-radius: 16px;
+    background-color: gold;
+    padding: 8px 12px;
+    font-size: 50px;
+    color: rgb(66, 54, 48);
 }
 
-.header-div {
-    background-color: black;
-    width: 100%;
-    height: 150px;
-    line-height: 150px;
-    padding: 10px 14px 10px 50px;
-    color: white;
-    align-items: center;
-    column-gap: 10px;
-    font-size: 105px;
-    position: absolute;
-    top: 0;
-}
-
-.header-div:hover {
-    background-color: black;
-}
-
-.header-div a {
-    color: white;
-    text-decoration: none;
-}
-
-.OpenBtn {
-    display: inline;    
-}
+/*원문, 해설 전체 내용 종료*/
 
 .sidebar-p1 {
     color: black;
     font-size: 90px;
     margin: 0;
-    padding-top: 50px;
-    padding-bottom: 10px;
 }
 
-.flex a {
-    text-decoration: none;
-    color: rgb(0, 0, 150);
-}
-
-.flex a:hover {
-    padding: 6px 10px;
-    background-color: orange;
+.flex li:hover {
+    background-color: rgb(238, 156, 62);
     color: white;
-    border-radius: 8px;
 }
 
 .flex {
     display: flex;
     width: 100%;
-    text-align: center;
-    margin-bottom: 100px;
+    border-top: 20px solid rgb(238, 156, 62);
 }
 
 .flex1 {
@@ -145,35 +126,42 @@ html, body {
     margin: 0;
 }
 
-.flex li {
-    padding-top: 6px;
-    padding-bottom: 6px;
+.flex ul li {
+    text-align: center;
+    width: 250px;
+    height: 80px;
+    line-height: 80px;
+    padding: 8px 12px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gold;
+    border-radius: 65px;
 }
 
 .flex a {
     text-decoration: none;
-    font-size: 75px;
+    font-size: 56px;
+    text-decoration: none;
+    color: #503200;
 }
 
 .sidebar-p1-1 {
     font-size: 120px;
-    padding-top: 50px;
-    padding-bottom: 10px;
-}
-
-.div-11 {
+    width: 600px;
+    height: 180px;
+    line-height: 180px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    margin-bottom: 50px;
+    background-color: rgb(238, 156, 62);
+    border-radius: 65px;
 }
 
 .div-11 a {
     text-decoration: none;
-    color: rgb(0, 0, 150);
-}
-
-.div-11 a:hover {
-    padding: 6px 10px;
-    background-color: orange;
-    color: white;
-    border-radius: 12px;
+    color: #503200;
 }

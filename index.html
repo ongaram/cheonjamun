@@ -6,86 +6,64 @@
 
     <style>
 
-    body {
-        background-color: white;
-    }
+        body {
+            background-color: rgb(238, 156, 62);
+            margin: 0;
+        }
 
-    .p1 {
-        width: 100%;
-        text-align: center;
-        margin-top: 150px;
-    }
+        .div1 {
+            width: 100%;
+            text-align: center;
+            margin-top: 150px;
+        }
 
-    .p1 ul li {
-        list-style: none;
-        color: black;
-        font-size: 100px;
-    }
+        .div1 ul li {
+            list-style: none;
+            color: black;
+            font-size: 100px;
+        }
 
-    .p1 ul li:first-child {
-        color: rgb(0, 0, 150);
-    }
+        .div2 {
+            display: flex;
+            align-items: flex-end;
+        }
 
-    .p1 ul li:last-child {
-        color: orange;
-    }
+        .div2-bg {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 50vh;
+            background-color: white;
+            border-top-left-radius: 48px;
+            border-top-right-radius: 48px;
+        }
 
-    .p2 {
-        text-align: center;
-        margin-top: 150px;
-    }
+        .div2-btn {
+            flex: 1;
+            text-align: center;
+            width: 300px;
+            height: 150px;
+            line-height: 150px;
+            color: #191919;
+            font-size: 60px;
+            font-weight: bold;
+            border: 6px solid rgb(20, 71, 184);
+            border-radius: 100px;
+            padding: 10px 20px;
+            margin-left: 200px;
+            margin-right: 200px;
+        }
 
-    .p2 ul li {
-        list-style: none;
-        padding: 0;
-    }
-
-    .p2 ul li a {
-        text-decoration: none;
-        color: white;
-        font-size: 80px;
-    }
-
-    .p2 ul li button {
-        width: 500px;
-        height: 250px;
-        outline: none;
-        border: none;
-        background-color: rgb(0, 0, 150);
-        border-radius: 20px;
-    }
-
-    .p2 ul li button:hover {
-        width: 500px;
-        height: 250px;
-        outline: none;
-        border: none;
-        background-color: orange;
-        border-radius: 20px;
-    }
-
-    .p3 {
-        width: 100%;
-        text-align: center;
-        margin-top: 150px;
-    }
-
-    .p3 ul li {
-        list-style: none;
-        font-size: 100px;
-        padding-left: 0;
-    }
-
-    .p3 img {
-        width: 60%;
-        height: 60%;
-    }
+        .div2-btn:hover {
+            color: white;
+            background-color: rgb(20, 71, 184);
+        }
 
     </style>
 </head>
 <body>
 
-    <div class="p1">
+    <div class="div1">
         <ul>
             <li>
                 주 흥 사 천 자 문
@@ -96,20 +74,10 @@
         </ul>
     </div>
 
-    <div class="p2">
-        <ul>
-            <li>
-                <button><a href="co1-10.html">바 로 가 기</a></button>
-            </li>
-        </ul>
-    </div>
-    
-    <div class="p3">
-        <ul>
-            <li>
-                <img src="icon.png" alt="목 차">
-            </li>
-        </ul>
+    <div class="div2">
+        <div class="div2-bg">
+            <div class="div2-btn">Get Started</div>
+        </div>
     </div>
 
 </body>
